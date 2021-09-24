@@ -31,47 +31,7 @@ I use VS Code in every single day.
 
 [Find full settings.json](code-editors/vs-code/settings.json)
 
-### VIM
-I am a big fan of [VIM](https://www.vim.org/). I am using vim in VS Code. Beside regular commands of VIM, I use some customized command. Here is a sample-
-
-```json
-    /**
-    * VIM Settings
-    **/
-    "vim.insertModeKeyBindings": [
-        {
-            "before": ["j", "j"],
-            "after": ["<Esc>"]
-        },
-    ],
-    "vim.normalModeKeyBindings": [
-        {
-            "before": ["<tab>"],
-            "commands": ["workbench.action.nextEditor"],
-        },
-        {
-            "before": ["<S-tab"],
-            "commands": ["workbench.action.previousEditor"]
-        }
-    ],
-    "vim.normalModeKeyBindingsNonRecursive": [
-        {
-            "before": ["<leader>", "w"],
-            "commands": ["workbench.action.splitEditor"]
-        },
-        {
-            "before": ["<leader>", "s"],
-            "after": ["_"]
-        },
-        {
-            "before": ["<leader>", "e"],
-            "after": ["$"]
-        },
-    ],
-    "vim.leader": "space",
-```
-
-[Find full settings.json](code-editors/vs-code/settings.json)
+Know more details about [plugins, and settings](/code-editors/vs-code/readme.md)
 
 ## Others
 
