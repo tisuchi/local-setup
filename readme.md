@@ -33,7 +33,16 @@ I use VS Code in every single day.
 
 Know more details about [plugins, and settings](/code-editors/vs-code/readme.md)
 
-## Others
+# Development Environment
+I use different types of environments for local set up.
+
+## Docker
+I use [docker](https://www.docker.com/) for local development.
+
+## Table Plus
+I use [Table Plus](https://tableplus.com/) as database GUI.
+
+# Others
 
 ### Shell
 - [tldr](https://github.com/tldr-pages/tldr) - Example-driven alternative to man pages.
