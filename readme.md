@@ -12,6 +12,9 @@ Settings is always depends on personal preference, however here is my preference
 
 [~/kitty-cat/kitty.conf](tools/terminals/kitty/kitty.conf)
 
+A sample kitty
+![Kitty Terminal](tools/terminals/kitty/kitty-terminal.png)
+
 ### iTerms
 
 # Code Editor
