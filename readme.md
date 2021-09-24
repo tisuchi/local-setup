@@ -12,10 +12,63 @@ Settings is always depends on personal preference, however here is my preference
 
 [~/kitty-cat/kitty.conf](tools/terminals/kitty/kitty.conf)
 
-A sample kitty
+A kitty screenshot-
 ![Kitty Terminal](tools/terminals/kitty/kitty-terminal.png)
 
 ### iTerms
 
 # Code Editor
 My primary code editor is [Visual Studio Code](https://code.visualstudio.com/) editor.
+
+## VS Code
+I use VS Code in every single day.
+
+- **Theme** Github
+- **Color** White
+- **Font** Operator Mono
+- **Font Size** 16
+- **Line Height** 32
+
+[Find full settings.json](code-editors/vs-code/settings.json)
+
+## VIM
+I am a big fan of [VIM](https://www.vim.org/). I am using vim in VS Code. Beside regular commands of VIM, I use some customized command. Here is a sample-
+
+```json
+    /**
+    * VIM Settings
+    **/
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j", "j"],
+            "after": ["<Esc>"]
+        },
+    ],
+    "vim.normalModeKeyBindings": [
+        {
+            "before": ["<tab>"],
+            "commands": ["workbench.action.nextEditor"],
+        },
+        {
+            "before": ["<S-tab"],
+            "commands": ["workbench.action.previousEditor"]
+        }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": ["<leader>", "w"],
+            "commands": ["workbench.action.splitEditor"]
+        },
+        {
+            "before": ["<leader>", "s"],
+            "after": ["_"]
+        },
+        {
+            "before": ["<leader>", "e"],
+            "after": ["$"]
+        },
+    ],
+    "vim.leader": "space",
+```
+
+[Find full settings.json](code-editors/vs-code/settings.json)

@@ -1,0 +1,154 @@
+{
+	"editor.fontFamily": "Operator Mono",
+	"editor.fontSize": 16,
+	"editor.lineHeight": 32,
+	"editor.letterSpacing": 0.5,
+	"files.trimTrailingWhitespace": true,
+	"editor.fontWeight": "400",
+	"editor.cursorStyle": "line",
+	"editor.cursorWidth": 2,
+	"editor.cursorBlinking": "phase",
+	"editor.renderWhitespace": "all",
+	"editor.minimap.enabled": false,
+	"workbench.iconTheme": "vscode-icons",
+	"html.format.contentUnformatted": "",
+
+	// Some Custom Settings
+	"window.newWindowDimensions": "offset",
+	"editor.snippetSuggestions": "top",
+	"diffEditor.renderSideBySide": false,
+
+	// "editor.gotoLocation.multipleReferences": "goto",
+	// "editor.gotoLocation.multipleDefinitions": "goto",
+	// "editor.gotoLocation.multipleDeclarations": "goto",
+	// "editor.gotoLocation.multipleImplementations": "goto",
+	// "editor.gotoLocation.multipleTypeDefinitions": "goto",
+
+	"[yaml]": {
+	    "editor.insertSpaces": true,
+	    "editor.tabSize": 4,
+	    "editor.autoIndent": "advanced"
+	},
+	"[php]": {
+	    "editor.formatOnSave": true
+	},
+	"timeline.excludeSources": [],
+	"search.useIgnoreFiles": false,
+	"namespaceResolver.sortAlphabetically": true,
+	"[json]": {
+	    "editor.quickSuggestions": {
+		"strings": true
+	    },
+	    "editor.suggest.insertMode": "replace"
+	},
+	"phpstan.configuration": "phpstan.neon",
+	"phpstan.level": "config",
+	"editor.fontLigatures": null,
+	"better-phpunit.commandSuffix": "--testdox",
+
+
+	// CUSTOMIZED Terminal Theme
+	// -------------------------
+	// Curious to know more?
+	// Check it out: https://github.com/Tyriar/vscode-snazzy
+	"workbench.colorCustomizations": {
+	    // The background is optional
+	    "terminal.background": "#282a36",
+	    "terminalCursor.background": "#282a36",
+	    "terminalCursor.foreground": "#97979b",
+	    "terminal.selectionBackground": "#97979b33",
+	    "terminal.foreground": "#eff0eb",
+	    "terminal.ansiBlack": "#282a36",
+	    "terminal.ansiRed": "#ff5c57",
+	    "terminal.ansiGreen": "#5af78e",
+	    "terminal.ansiYellow": "#f3f99d",
+	    "terminal.ansiBlue": "#57c7ff",
+	    "terminal.ansiMagenta": "#ff6ac1",
+	    "terminal.ansiCyan": "#9aedfe",
+	    "terminal.ansiWhite": "#f1f1f0",
+	    "terminal.ansiBrightBlack": "#686868",
+	    "terminal.ansiBrightRed": "#ff5c57",
+	    "terminal.ansiBrightGreen": "#5af78e",
+	    "terminal.ansiBrightYellow": "#f3f99d",
+	    "terminal.ansiBrightBlue": "#57c7ff",
+	    "terminal.ansiBrightMagenta": "#ff6ac1",
+	    "terminal.ansiBrightCyan": "#9aedfe",
+	    "terminal.ansiBrightWhite": "#eff0eb"
+	},
+
+	/**
+	* VIM Settings
+	**/
+	"vim.easymotion": true,
+	"vim.surround": true,
+	"vim.incsearch": true,
+	"vim.useSystemClipboard": true,
+	"vim.useCtrlKeys": true,
+	"vim.hlsearch": true,
+	// "editor.lineNumbers": "relative",
+	"vim.insertModeKeyBindings": [
+	    {
+		"before": ["j", "j"],
+		"after": ["<Esc>"]
+	    },
+	],
+	"vim.normalModeKeyBindings": [
+	    {
+		"before": ["<tab>"],
+		"commands": ["workbench.action.nextEditor"],
+	    },
+	    {
+		"before": ["<S-tab"],
+		"commands": ["workbench.action.previousEditor"]
+	    }
+	],
+	"vim.normalModeKeyBindingsNonRecursive": [
+	    {
+		"before": ["<leader>", "w"],
+		"commands": ["workbench.action.splitEditor"]
+	    },
+	    {
+		"before": ["<leader>", "s"],
+		"after": ["_"]
+	    },
+	    {
+		"before": ["<leader>", "e"],
+		"after": ["$"]
+	    },
+	],
+	"vim.leader": "space",
+	"explorer.confirmDelete": false,
+	"cSpell.userWords": [
+	    "classmap",
+	    "concatenator",
+	    "gleif",
+	    "laravel",
+	    "otrs",
+	    "tailwind"
+	],
+	"editor.largeFileOptimizations": false,
+	"terminal.integrated.fontSize": 16,
+	"editor.tabSize": 8,
+	"editor.insertSpaces": false,
+	"editor.lineNumbers": "on",
+	"editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
+	"editor.wordWrap": "off",
+	"liveServer.settings.donotShowInfoMsg": true,
+	"terminal.integrated.fontFamily": "Operator Mono",
+	"terminal.integrated.lineHeight": 1.5,
+	"window.title": "",
+	"breadcrumbs.enabled": false,
+	"workbench.colorTheme": "GitHub Light Default",
+	"editor.codeLensFontFamily": "Operator Mono",
+
+
+	"phpConstructor.visibility": "public",               // Default property visibility modifier
+	"phpConstructor.constructorVisibility": "public",    // Default constructor visibility modifier
+	"phpConstructor.choosePropertyVisibility": "public",     // Choose property visibility modifier in snippet
+	"phpConstructor.chooseConstructorVisibility": "public",
+	"workbench.editor.enablePreview": false,
+	"sync.gist": "c70b890b9586b2fcd65fdedf89c6dfb2",
+	"[markdown]": {
+	    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+	}, // Choose constructor visibility modifier in snippet
+    }
