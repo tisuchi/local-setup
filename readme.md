@@ -42,6 +42,16 @@ I use [docker](https://www.docker.com/) for local development.
 ## Table Plus
 I use [Table Plus](https://tableplus.com/) as database GUI.
 
+# Utility Tools
+- [TickTick](https://ticktick.com/?language=en_US) for Todo maintenance.
+- [Notion](https://www.notion.so/) for documentation.
+- [Post Man](https://www.postman.com/) for API development, access and share.
+- [Alfred 4](https://www.alfredapp.com/) for better search and accessibility.
+- [Tyme](https://www.tyme-app.com/en/) for tracking time.
+- [Ray](https://myray.app/) for debugging errors.
+- [Phoenix](https://github.com/kasper/phoenix) for shortcut scripts.
+- [Ctop](https://github.com/bcicen/ctop) for docker container.
+
 # Others
 
 ### Shell
