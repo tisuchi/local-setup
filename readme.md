@@ -51,6 +51,7 @@ I use [Table Plus](https://tableplus.com/) as database GUI.
 - [Ray](https://myray.app/) for debugging errors.
 - [Phoenix](https://github.com/kasper/phoenix) for shortcut scripts.
 - [Ctop](https://github.com/bcicen/ctop) for docker container.
+- [Fish Terminal](https://fishshell.com/)
 
 # Others
 
