@@ -42,6 +42,10 @@ I use [docker](https://www.docker.com/) for local development.
 ## Table Plus
 I use [Table Plus](https://tableplus.com/) as database GUI.
 
+##  Phoenix
+I use **Phoenix** for custom key binding for accessing application.
+
+Current settings of [.phoenix.js](/development-environment/.phoenix.js)
 # Utility Tools
 - [TickTick](https://ticktick.com/?language=en_US) for Todo maintenance.
 - [Notion](https://www.notion.so/) for documentation.
